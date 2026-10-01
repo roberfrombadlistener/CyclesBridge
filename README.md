@@ -24,7 +24,7 @@ i have had success so far with asio4all: https://asio4all.org/
 move the entire CyclesBridge.vst3 folder to your vst3 plugins directory.
 usually this is found at "C:\Program Files\Common Files\VST3"
 
-**step 4. **
+**step 4.**
 
 open Ableton and it should find the CyclesBridge vst. Add it to a midi track
 
