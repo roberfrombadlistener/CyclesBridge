@@ -9,26 +9,32 @@ I have only tested this on Windows11 with Ableton 12 Suite using ASIO4ALL and a 
 
 How to use:
 
-step 1.
+**step 1.**
+
 flash a firmware onto the model:cycles that exposes 6 audio tracks over usb. this can be accomplished - using this tool:
 https://18nelli18.github.io/Modded-Cycles/flasher/
 
-step 2.
+**step 2.**
+
 you will need at least two audio devices, one of which must be an ASIO driver that can host the model cycles.
 i have had success so far with asio4all: https://asio4all.org/
 
-step 3.
+**step 3.**
+
 move the entire CyclesBridge.vst3 folder to your vst3 plugins directory.
 usually this is found at "C:\Program Files\Common Files\VST3"
 
-step 4. 
+**step 4. **
+
 open Ableton and it should find the CyclesBridge vst. Add it to a midi track
 
-step 5.
+**step 5.**
+
 open the standalone CyclesBridge app and select your asio device. 
 open the configuration panel and configure it to use the model:cycles
 
-step 6.
+**step 6.**
+
 in ableton, use a different audio device than the device that the CyclesBridge app is using. (tested with a Behringer UMC1820)
 at this point, if you trigger sounds on channel 1 of the model:cycles, you should hear it coming out of the track in ableton with the CyclesBridge vst.
 if not - there's something off about your audio configuration in the standalone app
