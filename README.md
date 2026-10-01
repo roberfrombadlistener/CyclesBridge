@@ -39,14 +39,16 @@ in ableton, use a different audio device than the device that the CyclesBridge a
 at this point, if you trigger sounds on channel 1 of the model:cycles, you should hear it coming out of the track in ableton with the CyclesBridge vst.
 if not - there's something off about your audio configuration in the standalone app
 
-Basic Routing Setup:
+**Basic Routing Setup:**
+
 mute the cycles bridge app and make 6 audio tracks
 set the "Audio From" for each track to the track with the CyclesBridge vst 
 change the audio source for each track from "Post Mixer" to Track 1, Track 2, and so on.
 Set the monitor to "in" for each of the tracks to hear them playing through ableton
 
 
-Note on Latency:
+**Note on Latency:**
+
 Using two audio devices like this can be CPU heavy and can create latency. Try to set the buffer size for both audio devices as low as possible without creating distortion. 
 also the sample rate for both standalone app and Ableton must be set to 48000
 If there is a noticeable delay in the clock when sending clock from Ableton to the cycles, open the "Tempo and MIDI" tab in preferences, click the arrow next to the in and out ports for cycles to expose additional settings
