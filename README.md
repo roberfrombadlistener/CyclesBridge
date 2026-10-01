@@ -39,32 +39,40 @@ usually this is found at "C:\Program Files\Common Files\VST3"
 
 **step 4.**
 
-open Ableton and it should find the CyclesBridge vst. Add it to a midi track
+open Ableton and it should find the CyclesBridge vst. Add it to a midi track.
 
 **step 5.**
 
 open the standalone CyclesBridge app and select your asio device. 
-open the configuration panel and configure it to use the model:cycles
+open the configuration panel and configure it to use the model:cycles.
 
 **step 6.**
 
-in ableton, use a different audio device than the device that the CyclesBridge app is using. (tested with a Behringer UMC1820)
+in ableton, use a different audio device than the device that the CyclesBridge app is using. (tested with a Behringer UMC1820).
+
 at this point, if you trigger sounds on channel 1 of the model:cycles, you should hear it coming out of the track in ableton with the CyclesBridge vst.
-if not - there's something off about your audio configuration in the standalone app
+
+if not - there's something off about your audio configuration in the standalone app.
 
 **Basic Routing Setup:**
 
-mute the cycles bridge app and make 6 audio tracks
-set the "Audio From" for each track to the track with the CyclesBridge vst 
+mute the cycles bridge app and make 6 audio tracks.
+
+set the "Audio From" for each track to the track with the CyclesBridge vst.
+
 change the audio source for each track from "Post Mixer" to Track 1, Track 2, and so on.
-Set the monitor to "in" for each of the tracks to hear them playing through ableton
+
+Set the monitor to "in" for each of the tracks to hear them playing through ableton.
 
 
 **Note on Latency:**
 
 Using two audio devices like this can be CPU heavy and can create latency. Try to set the buffer size for both audio devices as low as possible without creating distortion. 
+
 also the sample rate for both standalone app and Ableton must be set to 48000
+
 If there is a noticeable delay in the clock when sending clock from Ableton to the cycles, open the "Tempo and MIDI" tab in preferences, click the arrow next to the in and out ports for cycles to expose additional settings
+
 adjust the MIDI Clock Sync Delay setting until it resolves the issue - I had to set mine to around - 10 ms while using a buffer size of 128 samples for both my interface and the standalone app
 
 **CyclesBridge is an unofficial community project and is not affiliated with or endorsed by Elektron Music Machines. Elektron and Model:Cycles are trademarks of their respective owners. No Elektron firmware is included in this repository.**
