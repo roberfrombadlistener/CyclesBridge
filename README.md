@@ -7,7 +7,7 @@ Full disclosure, this software was fully vibe coded using an LLM.
 I really don't have a ton of technical knowledge regarding how this works, beyond that it was made using JUCE.
 I have only tested this on Windows11 with Ableton 12 Suite using ASIO4ALL and a Behringer UMC1820 interface - I have no idea what other configurations will or won't work.
 
-[Download ZIP](CyclesBridge.zip)
+[Download ZIP](/raw/refs/heads/main/CyclesBridge.zip)
 
 How to use:
 
