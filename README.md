@@ -45,3 +45,5 @@ Using two audio devices like this can be CPU heavy and can create latency. Try t
 also the sample rate for both standalone app and Ableton must be set to 48000
 If there is a noticeable delay in the clock when sending clock from Ableton to the cycles, open the "Tempo and MIDI" tab in preferences, click the arrow next to the in and out ports for cycles to expose additional settings
 adjust the MIDI Clock Sync Delay setting until it resolves the issue - I had to set mine to around - 10 ms while using a buffer size of 128 samples for both my interface and the standalone app
+
+**CyclesBridge is an unofficial community project and is not affiliated with or endorsed by Elektron Music Machines. Elektron and Model:Cycles are trademarks of their respective owners. No Elektron firmware is included in this repository.**
