@@ -7,6 +7,15 @@ Full disclosure, this software was fully vibe coded using an LLM.
 I really don't have a ton of technical knowledge regarding how this works, beyond that it was made using JUCE.
 I have only tested this on Windows11 with Ableton 12 Suite using ASIO4ALL and a Behringer UMC1820 interface - I have no idea what other configurations will or won't work.
 
+**Companion App:**
+
+<img width="722" height="552" alt="companion app" src="https://github.com/user-attachments/assets/823aef7e-2663-4fb6-9bd3-9093b3f3ab24" />
+
+**VST:**
+
+<img width="682" height="362" alt="vst" src="https://github.com/user-attachments/assets/26a9f648-cd44-4186-b81e-a58a75276cb2" />
+
+
 [Download ZIP](https://github.com/roberfrombadlistener/CyclesBridge/raw/refs/heads/main/CyclesBridge.zip)
 
 How to use:
