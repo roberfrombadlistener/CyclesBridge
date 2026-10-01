@@ -55,3 +55,6 @@ If there is a noticeable delay in the clock when sending clock from Ableton to t
 adjust the MIDI Clock Sync Delay setting until it resolves the issue - I had to set mine to around - 10 ms while using a buffer size of 128 samples for both my interface and the standalone app
 
 **CyclesBridge is an unofficial community project and is not affiliated with or endorsed by Elektron Music Machines. Elektron and Model:Cycles are trademarks of their respective owners. No Elektron firmware is included in this repository.**
+
+**JUCE 9 – Raw Material Software
+VST 3 SDK – Steinberg Media Technologies GmbH**
