@@ -1,0 +1,46 @@
+{
+  "Name": "CyclesBridge",
+  "Version": "0.3.0",
+  "Factory Info": {
+    "Vendor": "CyclesBridge",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB4379427243794236",
+      "Category": "Audio Module Class",
+      "Name": "CyclesBridge",
+      "Vendor": "CyclesBridge",
+      "Version": "0.3.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Instrument",
+      ],
+      "Class Flags": 2,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD4379427243794236",
+      "Category": "Component Controller Class",
+      "Name": "CyclesBridge",
+      "Vendor": "CyclesBridge",
+      "Version": "0.3.0",
+      "SDKVersion": "VST 3.8.0",
+      "Sub Categories": [
+        "Instrument",
+      ],
+      "Class Flags": 2,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}
